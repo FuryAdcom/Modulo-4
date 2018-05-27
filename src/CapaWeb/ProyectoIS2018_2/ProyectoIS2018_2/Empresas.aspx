@@ -1,22 +1,16 @@
-﻿<%@ Page Title="Empresas" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Empresas.aspx.cs" Inherits="ProyectoIS2018_2.WebForm1" %>
+﻿<%@ Page Title="Empresas" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Empresas.aspx.cs" Inherits="ProyectoIS2018_2.Empresas" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2 class="text-center" style="font-size:40px"><%: Title %>.</h2>
-    <div style="width: 50%; height: 60px; float: left" class="text-center">
-       <button type="button" class="btn btn-primary btn-lg" style="width: 300px">Agregar empresa</button>
+    <h2 class="text-center" style="font-size:40px">Compañias.</h2>
+    <div style="width: 100%; height: 70px; float: left" class="text-center">
+       <a class="btn btn-primary btn-lg" style="width: 300px; margin-right: 50px" href="/Agregar">Agregar compañia</a>
+       <a class="btn btn-default btn-lg" style="width: 300px" href="/Modificar">Modificar compañia</a>
     </div>
-    <div style="width: 50%; height: 60px; float: left" class="text-center">
-       <button type="button" class="btn btn-secondary btn-lg" style="width: 300px">Modificar empresa</button>
+    <div style="width: 100%; height: 60px; float: left" class="text-center">
+       <a class="btn btn-default btn-lg" style="width: 300px; margin-right: 50px" href="/Consultar">Consultar compañia</a>
+       <a class="btn btn-danger btn-lg" style="width: 300px" href="/Eliminar">Eliminar compañia</a>
     </div>
-    <div style="width: 50%; height: 60px; float: left"" class="text-center">
-       <button type="button" class="btn btn-secondary btn-lg" style="width: 300px">Consultar empresa</button>
-    </div>
-    <div style="width: 50%; height: 60px; float: left"" class="text-center">
-       <button type="button" class="btn btn-danger btn-lg" style="width: 300px">Eliminar empresa</button>
-    </div>
-    <p class="text-center">
-        <br />
-        NOTA:<br /> Seleccione una opcion para continuar.
+    <p class="text-center" style="clear: both">
+        NOTA: Seleccione una opcion para continuar.
     </p>
 </asp:Content>
-

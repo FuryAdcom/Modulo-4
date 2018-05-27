@@ -10,6 +10,6 @@
 namespace ProyectoIS2018_2 {
     
     
-    public partial class Empresas {
+    public partial class Agregar {
     }
 }

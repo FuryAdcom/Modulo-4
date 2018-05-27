@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ProyectoIS2018_2
 {
-    public partial class Empresas : System.Web.UI.Page
+    public partial class Modificar : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
