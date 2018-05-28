@@ -2,9 +2,9 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Agregar compañia.</h2>
-    <div>
+    <div class="well">
         <p>Por favor llene los datos a continuacion para agregar su compañia:</p>
-        <form action="/Agregar">
+        <form <!--action="/Link a modulo 5"--> >
             <br />
             Nombre compañia:<br />
             <input type="text" placeholder="Nombre" name="companyname"><br>
@@ -14,5 +14,7 @@
             <span style="color: #ff0000">(Obligatorio)</span> A continuacion inserte todos los contactos de la empresa que necesite:<br />
             <button type="submit" class="btn btn-primary" style="margin-top: 10px">Agregar contactos</button>
         </form>
+        <br />
+        <a class="btn btn-default" style="margin-top: 10px" href="Empresas.aspx">Regresar</a>
     </div>
 </asp:Content>

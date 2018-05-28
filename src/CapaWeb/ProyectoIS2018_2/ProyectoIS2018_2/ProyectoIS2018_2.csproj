@@ -155,8 +155,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Agregar.aspx" />
-    <Content Include="Consultar.aspx" />
+    <Content Include="Views\Modulo4\Agregar.aspx">
+      <BrowseToURL>~/Views/Modulo4/Agregar</BrowseToURL>
+    </Content>
+    <Content Include="Views\Modulo4\Consultar.aspx">
+      <BrowseToURL>~/Views/Modulo4/Consultar</BrowseToURL>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -164,8 +168,18 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Eliminar.aspx" />
-    <Content Include="Empresas.aspx" />
+    <Content Include="Views\Modulo4\Consultar_submit.aspx">
+      <BrowseToURL>~/Views/Modulo4/Consultar_submit</BrowseToURL>
+    </Content>
+    <Content Include="Views\Modulo4\Eliminar.aspx">
+      <BrowseToURL>~/Views/Modulo4/Eliminar</BrowseToURL>
+    </Content>
+    <Content Include="Views\Modulo4\Eliminar_submit.aspx">
+      <BrowseToURL>~/Views/Modulo4/Eliminar_submit</BrowseToURL>
+    </Content>
+    <Content Include="Views\Modulo4\Empresas.aspx">
+      <BrowseToURL>~/Views/Modulo4/Empresas</BrowseToURL>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -181,7 +195,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Modificar.aspx" />
+    <Content Include="Views\Modulo4\Modificar.aspx">
+      <BrowseToURL>~/Views/Modulo4/Modificar</BrowseToURL>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -212,17 +228,20 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\Modulo4\Modificar_submit.aspx">
+      <BrowseToURL>~/Views/Modulo4/Modificar_submit</BrowseToURL>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar.aspx.cs">
+    <Compile Include="Views\Modulo4\Agregar.aspx.cs">
       <DependentUpon>Agregar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Agregar.aspx.designer.cs">
+    <Compile Include="Views\Modulo4\Agregar.aspx.designer.cs">
       <DependentUpon>Agregar.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -234,11 +253,11 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Consultar.aspx.cs">
+    <Compile Include="Views\Modulo4\Consultar.aspx.cs">
       <DependentUpon>Consultar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consultar.aspx.designer.cs">
+    <Compile Include="Views\Modulo4\Consultar.aspx.designer.cs">
       <DependentUpon>Consultar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
@@ -255,28 +274,42 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Eliminar.aspx.cs">
+    <Compile Include="Views\Modulo4\Consultar_submit.aspx.cs">
+      <DependentUpon>Consultar_submit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Modulo4\Consultar_submit.aspx.designer.cs">
+      <DependentUpon>Consultar_submit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Modulo4\Eliminar.aspx.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Eliminar.aspx.designer.cs">
+    <Compile Include="Views\Modulo4\Eliminar.aspx.designer.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Empresas.aspx.cs">
+    <Compile Include="Views\Modulo4\Eliminar_submit.aspx.cs">
+      <DependentUpon>Eliminar_submit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Modulo4\Eliminar_submit.aspx.designer.cs">
+      <DependentUpon>Eliminar_submit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Modulo4\Empresas.aspx.cs">
       <DependentUpon>Empresas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Empresas.aspx.designer.cs">
+    <Compile Include="Views\Modulo4\Empresas.aspx.designer.cs">
       <DependentUpon>Empresas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Modificar.aspx.cs">
+    <Compile Include="Views\Modulo4\Modificar.aspx.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Modificar.aspx.designer.cs">
+    <Compile Include="Views\Modulo4\Modificar.aspx.designer.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -300,6 +333,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Modulo4\Modificar_submit.aspx.cs">
+      <DependentUpon>Modificar_submit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Modulo4\Modificar_submit.aspx.designer.cs">
+      <DependentUpon>Modificar_submit.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
