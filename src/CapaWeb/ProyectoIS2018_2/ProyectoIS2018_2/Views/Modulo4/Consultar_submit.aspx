@@ -9,19 +9,18 @@
             <br />
             <label>RIF:</label> J-00000000-0<br>
         </p>
-        <div>
-            <p>
-                <label>Contactos:</label><br />
-                1) Contacto 1 <br />
-                2) Contacto 2
-            </p>
-        </div>
+        <div style="height: 50px">
+            <form <!--action="/Link modulo 5"-->
+            <button type="submit" class="btn btn-primary" style="width:200px">Ver contactos</button>
+            </form>
+        </div>           
+        <div style="height: 34px">
         <form> <!--action="/Link modulo 5"-->
-            <button type="submit" class="btn btn-danger" style="width:200px; margin-top: 10px; float:left; margin-right: 20px">Eliminar contactos</button>
+            <button type="submit" class="btn btn-danger" style="width:200px; float:left; margin-right: 20px">Eliminar contactos</button>
         </form>
         <form> <!--action="/Link modulo 5"--> 
-            <button type="submit" class="btn btn-primary" style="width:200px; margin-top: 10px; float:left">Modificar contactos</button>
+            <button type="submit" class="btn btn-primary" style="width:200px; float:left">Modificar contactos</button>
         </form>
-        <br /><br />
+        </div>
     </div>
 </asp:Content>

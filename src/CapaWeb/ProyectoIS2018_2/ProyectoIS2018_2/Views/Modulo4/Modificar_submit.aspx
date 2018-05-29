@@ -17,6 +17,5 @@
         <form> <!--action="/Link modulo 5"--> 
             <button type="submit" class="btn btn-primary" style="width:200px; margin-top: 10px; float:left">Modificar contactos</button>
         </form>
-        <br /><br />
     </div>
 </asp:Content>

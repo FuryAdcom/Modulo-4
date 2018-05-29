@@ -10,10 +10,13 @@
           <option value="">Ej2</option>
           <option value="">Ej3</option>
          </select>
-         <br><br>
-         <a class="btn btn-primary" style="margin-top: 10px" href="Modificar_submit.aspx">Buscar</a>
+         <div style="text-align:center">
+             <a class="btn btn-primary" style="margin-top: 10px" href="Modificar_submit.aspx">Buscar</a>
+         </div>
         </form>
         <br />
-        <a class="btn btn-default" style="margin-top: 10px" href="Empresas.aspx">Regresar</a>
+        
+              <a class="btn btn-default" href="Empresas.aspx">Regresar</a>
+       
     </div>
 </asp:Content>
