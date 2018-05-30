@@ -4,7 +4,7 @@
         <h2>Eliminar compañia.</h2>
     <div class="well">
         <form action="/">
-         <select name="Compañia">
+         <select name="Compañia"  style="height: 26px">
           <option value="">Ej1</option>
           <option value="">Ej2</option>
           <option value="">Ej3</option>

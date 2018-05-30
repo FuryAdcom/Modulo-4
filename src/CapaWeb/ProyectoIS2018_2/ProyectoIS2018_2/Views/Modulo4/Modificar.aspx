@@ -5,7 +5,7 @@
     <div class="well">
         <p>Por favor inserte la compañia a modificar:</p>
         <form action="/Views/Modulo4/Modificar_submit">
-         <select name="Compañia">
+         <select name="Compañia"  style="height: 26px">
           <option value="">Ej1</option>
           <option value="">Ej2</option>
           <option value="">Ej3</option>

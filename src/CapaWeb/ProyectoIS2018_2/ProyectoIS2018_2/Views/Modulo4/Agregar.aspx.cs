@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ProyectoIS2018_2
+namespace ProyectoIS2018_2.Views.Modulo4
 {
     public partial class Agregar : System.Web.UI.Page
     {
