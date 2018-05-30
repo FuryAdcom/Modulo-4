@@ -5,7 +5,7 @@
     <div class="well">
         <p>Por favor inserte la compañia a consultar:</p>
        <form action="/">
-         <select name="Compañia">
+         <select name="Compañia" style="height:30px">
           <option value="">Ej1</option>
           <option value="">Ej2</option>
           <option value="">Ej3</option>
