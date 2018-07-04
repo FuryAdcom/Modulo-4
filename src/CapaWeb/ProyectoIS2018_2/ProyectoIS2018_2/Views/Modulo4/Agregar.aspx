@@ -269,8 +269,23 @@
             <input type="text" placeholder="Correo" name="companymail" style="height: 25px">
             </div>
         <div style="width:50%; float:left; height:60px">Telefono:<br />
-            <input type="text" placeholder="Telefono" name="companyphone" style="height: 25px">
+            <input type="text" placeholder="Telefono" name="companyphone" style="height: 25px" required="required">
             </div>
+        <div style="width:50%; float:left; height:60px">Presupuesto anual:<br />
+        <input class="form-control" id="presupuestoanual" name="PresupuestoAnual" required="required" type="text" value="0,00">
+            </div>
+        <div style="width:50%; float:left; height:60px">Plazo de Pago:<br />
+                            <div style="width:25%; float:left">
+                                <input class="form-control" data-val="true" data-val-number="El campo PlazoPago debe ser un número." data-val-required="El campo PlazoPago es obligatorio." id="plazopago" min="1" name="PlazoPago" required="required" type="number" value="0">
+                            </div>
+                            <div style="width:25%; float:left">
+                                <select class="form-control" id="tipoplazo" name="TipoPlazoPago"><option value="-1">Seleccionar...</option>
+<option value="dias">dias</option>
+<option value="meses">meses</option>
+<option value="años">años</option>
+</select>
+                            </div>
+                        </div>
         <div style="width:100%; float:left"><span style="color: #ff0000">(Obligatorio)</span> A continuacion inserte todos los contactos de la empresa que necesite:<br />
             <div style="text-align:center">
                 <a type="submit" class="btn btn-primary" style="margin-top: 10px" href="/Views/Modulo5/Crear_Contacto">Agregar contactos</a>
