@@ -207,7 +207,9 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Views\Modulo4\Agregar.aspx" />
+    <Content Include="Views\Modulo4\Agregar.aspx">
+      <BrowseToURL>~/Views/Modulo4/Agregar</BrowseToURL>
+    </Content>
     <Content Include="Views\Modulo4\Consultar.aspx" />
     <Content Include="Views\Modulo4\Consultar_submit.aspx" />
     <Content Include="Views\Modulo4\Eliminar.aspx" />
